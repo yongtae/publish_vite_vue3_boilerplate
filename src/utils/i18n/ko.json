@@ -1,0 +1,10 @@
+{
+  "ko": {
+    "title": "한글-title값",
+    "welcome": "한글-welcome to {name}",
+    "api-error": { "code-01": "한글-code-01값", "code-02": "한글-code-02값" }
+  },
+  "en": {
+    "title": "영문-title"
+  }
+}
