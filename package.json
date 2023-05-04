@@ -8,7 +8,7 @@
     "build": "vite build",
     "build-testcontext": "vite build --base=/testcontext",
     "preview": "vite preview",
-    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore,.eslintignore,.prettierignore"
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
   },
   "dependencies": {
     "@vee-validate/rules": "^4.8.4",

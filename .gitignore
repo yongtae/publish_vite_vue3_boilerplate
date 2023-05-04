@@ -27,3 +27,4 @@ coverage
 *.sln
 *.sw?
 #.npm-packages-offline
+**/_sample_dev_src/*
