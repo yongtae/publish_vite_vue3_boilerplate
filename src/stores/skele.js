@@ -1,7 +1,7 @@
 import { defineStore } from 'pinia';
 import { ref } from 'vue';
 export default defineStore('skele', () => {
-  let showLoading = ref(true);
+  let showLoading = ref(false);
 
   const getShowLoading = () => {
     return showLoading.value;

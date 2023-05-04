@@ -119,19 +119,18 @@ router.beforeEach((to, from, next) => {
     // console.log("routing success : '" + to.path + "'");
     next(); // 페이지 전환
   }
-  // console.log('router.beforeEach-------------', skele().getShowLoading());
   // 스켈레톤 노출
-  skele().setShowLoading(true);
+  // skele().setShowLoading(true);
 });
 
 // 컴포넌트 가드가 끝난 후에 실행되는 가드
 router.beforeResolve((to, from, next) => {
   // console.log('router.beforeResolve-------------');
-  setTimeout(() => {
-    console.log('스켈레톤 숨김,setTimeout----');
-    // 스켈레톤 숨김
-    skele().setShowLoading(false);
-  }, 2000);
+  // setTimeout(() => {
+  //   console.log('스켈레톤 숨김,setTimeout----');
+  //   // 스켈레톤 숨김
+  //   skele().setShowLoading(false);
+  // }, 2000);
   // skele().setShowLoading(false);
   next();
 });
