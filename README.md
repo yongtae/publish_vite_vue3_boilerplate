@@ -7,12 +7,29 @@
   npm run dev
 ```
 
-## 주요 기능 
+## 기반 기능 
 ```
   axios
-  vue3-logger
-  emitter
-  ...
+  lodash
+  mitt
+  moment
+  pinia
+  pinia-plugin-persistedstate
+  vee-validate
+  vue-codemirror
+  vue-router
+  vue-skeletor
+  vue3-i18n
+  vuejs3-logger
+
+```
+
+## 주요 기능 
+```
+  utils폴더 -> 기반기능 공통모듈화 처리
+  layouts폴더-> 레이아웃 기능 처리(헤더영역,푸터영역)
+  views -> 화면개발영역
+  
 ```
 
 ## 구조 설명
