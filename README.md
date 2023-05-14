@@ -43,9 +43,6 @@
   https://kmong.com/gig/467964
 
 
-<hr /><hr />
-<hr /><hr />
-
 ## 도움이 되셨다면 ~
 
 
